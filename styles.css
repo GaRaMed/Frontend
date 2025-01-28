@@ -96,3 +96,30 @@ footer ul li a {
     color: #fff;
     text-decoration: none;
 }
+/* New styles for contacts section */
+#contacts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#contacts ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contacts ul li {
+    width: 48%;
+    margin-bottom: 0.5rem;
+}
+#contacts ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    background: #f9f9f9;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+#contacts ul li a:hover {
+    background: #ddd;
+}
