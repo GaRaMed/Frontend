@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch(`https://api.rss2json.com/v1/api.json?rss_url=${mediumRSSFeed}`)
         .then(response => response.json())
         .then(data => {
-            const articles = data.items.slice(0, 4); // Get the latest 4 articles
+            const articles = data.items.slice(0, 2); // Get the latest 2 articles
             let output = '';
 
             articles.forEach(article => {
