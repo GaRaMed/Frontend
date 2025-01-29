@@ -123,3 +123,33 @@ footer ul li a {
 #contacts ul li a:hover {
     background: #ddd;
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    #contacts ul li {
+        width: 100%;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero h2 {
+        font-size: 1.2rem;
+    }
+
+    section {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .btn {
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+    }
+}
